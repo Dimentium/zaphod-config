@@ -13,12 +13,12 @@
 #include <logging/log.h>
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
-#if IS_ENABLED(CONFIG_ZAPHOD_BONGO_CAT)
+// #if IS_ENABLED(CONFIG_ZAPHOD_BONGO_CAT)
 #include "zaphod_bongo_cat_widget.h"
 
 static struct zaphod_bongo_cat_widget bongo_widget;
 
-#endif
+// #endif
 
 #if IS_ENABLED(CONFIG_ZMK_WIDGET_BATTERY_STATUS)
 static struct zmk_widget_battery_status battery_status_widget;
