@@ -7,16 +7,12 @@ config ZMK_KEYBOARD_NAME
 config SPI
 	default y
 
-ZMK_SLEEP=y
-ZMK_DISPLAY=y
-
 config ZMK_DISPLAY
 	select LVGL_USE_CONT
 	select LVGL_FONT_MONTSERRAT_40
+	default y
 
-ZMK_DISPLAY=y
-
-# if ZMK_DISPLAY
+if ZMK_DISPLAY
 
 config SYSTEM_WORKQUEUE_STACK_SIZE
     default 2048
@@ -55,4 +51,4 @@ config LVGL_DPI
 config LVGL_VDB_SIZE
 	default 16
 
-# endif # ZMK_DISPLAY
+endif # ZMK_DISPLAY
