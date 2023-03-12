@@ -7,6 +7,9 @@ config ZMK_KEYBOARD_NAME
 config SPI
 	default y
 
+ZMK_SLEEP=y
+ZMK_DISPLAY=y
+
 config ZMK_DISPLAY
 	select LVGL_USE_CONT
 	select LVGL_FONT_MONTSERRAT_40
