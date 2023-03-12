@@ -1,8 +1,6 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_ZAPHOD_LITE
-
 config ZMK_KEYBOARD_NAME
     default "Zaphod Lite"
 
@@ -10,7 +8,6 @@ config SPI
 	default y
 
 config ZMK_DISPLAY
-	default y
 	select LVGL_USE_CONT
 	select LVGL_FONT_MONTSERRAT_40
 
@@ -48,11 +45,9 @@ choice LVGL_COLOR_DEPTH
 endchoice
 
 config LVGL_DPI
-	default 30
+	default 144
 
 config LVGL_VDB_SIZE
 	default 16
 
 endif # ZMK_DISPLAY
-
-endif # SHIELD_ZAPHOD_LITE

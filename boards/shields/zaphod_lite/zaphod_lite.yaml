@@ -1,5 +1,5 @@
-identifier: zaphod
-name: Zaphod
+identifier: zaphod_lite
+name: Zaphod Lite
 type: keyboard
 arch: arm
 toolchain:
