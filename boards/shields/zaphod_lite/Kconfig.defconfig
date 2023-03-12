@@ -14,7 +14,9 @@ config ZMK_DISPLAY
 	select LVGL_USE_CONT
 	select LVGL_FONT_MONTSERRAT_40
 
-if ZMK_DISPLAY
+ZMK_DISPLAY=y
+
+# if ZMK_DISPLAY
 
 config SYSTEM_WORKQUEUE_STACK_SIZE
     default 2048
@@ -53,4 +55,4 @@ config LVGL_DPI
 config LVGL_VDB_SIZE
 	default 16
 
-endif # ZMK_DISPLAY
+# endif # ZMK_DISPLAY
