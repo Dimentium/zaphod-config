@@ -448,7 +448,7 @@ bv_alpha1rus {
 bv_alpha2rus {
     label = "Alpha R2";
     bindings = <
-        _____             &kp SEMI           &kp D         &kp V         _____            _____        &kp A             &kp X           &kp SQT          _____
+        _____             &kp SEMI           &kp D         &kp V         _____            _____        &kp A             &kp X           &kp RBKT         _____
         &kp DOT           &kp Q              &kp G         &mol BV_NAV R &key_repeat      &bspc_del    &kp COMMA         &kp P           &kp M            &kp S
         _____             _____              _____         _____         _____            _____        _____             _____           _____            _____
                                                             &mt LSHFT SPC _____            &to BV_AR1   _____
