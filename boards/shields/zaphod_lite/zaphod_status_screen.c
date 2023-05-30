@@ -8,7 +8,7 @@
 #include <zmk/display/widgets/battery_status.h>
 #include <zmk/display/widgets/layer_status.h>
 #include <zmk/display/widgets/wpm_status.h>
-//#include <zmk/display/status_screen.h>
+#include <zmk/display/status_screen.h>
 
 #include <zephyr/logging/log.h>
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
@@ -38,7 +38,7 @@ static struct zmk_widget_wpm_status wpm_status_widget;
 
 lv_style_t global_style;
 
-lv_obj_t *zmk_display_status_screen() {
+lv_obj_t *zmk_display_status_screen2() {
     lv_obj_t *screen;
 #if !IS_ENABLED(CONFIG_ZAPHOD_BONGO_CAT)
     lv_obj_t *dont_label;
