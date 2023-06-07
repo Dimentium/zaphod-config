@@ -15,8 +15,8 @@ config ZMK_DISPLAY
 	select LVGL_FONT_MONTSERRAT_40
 
 config ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
-    bool "Custom status screen"
-	
+    default y
+
 if ZMK_DISPLAY
 
 config SYSTEM_WORKQUEUE_STACK_SIZE
