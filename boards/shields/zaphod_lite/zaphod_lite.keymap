@@ -435,7 +435,7 @@
                 _____             &kp V              &kp W         &kp M         _____            _____        &kp F             &kp SEMI        &kp NON_US_BSLH  _____
                 &kp Q             &kp J              &kp P         &kp K         _____            _____        &kp B             &kp Z           &kp X            &kp Y
                 _____             _____              _____         _____         _____            _____        _____             _____           _____            _____
-                                                                   &mt LSHFT SPC _____            &to BV_AL1   _____
+                                                                   &mt LSHFT SPC &hdel HYPER      &to BV_AL1   _____
             >;
         };
         bv_alpha3 {
@@ -444,7 +444,7 @@
                 _____             &kp LS(SQT)        &kp LS(LBKT)  &kp LS(RBKT)  _____            _____        &kp LS(BSLH)      &kp SEMI        &kp LS(SEMI)     _____
                 &kp GRAVE         &kp SQT            &kp LBKT      &kp RBKT      _____            _____        &kp BSLH          &kp COMMA       &kp DOT          &kp FSLH
                 _____             _____              _____         _____         _____            _____        _____             _____           _____            _____
-                                                                   &mt LSHFT SPC _____            _____        &to BV_AL1 
+                                                                   &mt LSHFT SPC &hdel HYPER      _____        &to BV_AL1 
             >;
         };
 
@@ -463,7 +463,7 @@
                 _____             &kp SEMI           &kp D         &kp LBKT      _____            _____        &kp A             &kp X           &kp SQT          _____
                 &kp DOT           &kp Q              &kp G         &mol BV_NAV W _____            _____        &kp COMMA         &kp P           &kp M            &kp S
                 _____             _____              _____         _____         _____            _____        _____             _____           _____            _____
-                                                                   &mt LSHFT SPC _____            &to BV_AR1   _____
+                                                                   &mt LSHFT SPC &hdel HYPER      &to BV_AR1   _____
             >;
         };
         bv_alpha3rus {
@@ -472,7 +472,7 @@
                 _____             _____              _____         &kp RBKT      _____            _____        &kp NON_US_BSLH   &kp LS(N4)      &kp LS(N6)       _____
                 &kp GRAVE         &kp SQT            &kp I         &kp O         _____            _____        &kp BSLH          &kp LS(FSLH)    &kp FSLH         &kp Z
                 _____             _____              _____         _____         _____            _____        _____             _____           _____            _____
-                                                                   &mt LSHFT SPC _____            _____        &to BV_AR1 
+                                                                   &mt LSHFT SPC &hdel HYPER      _____        &to BV_AR1 
             >;
         };
 
